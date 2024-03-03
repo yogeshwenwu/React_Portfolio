@@ -1,6 +1,5 @@
 import React from "react";
 import Profile from '../Assets/profile_pic.jpeg'
-import Profile1 from '../Assets/my_pic.jpg'
 import { AiOutlineGithub, AiOutlineLinkedin } from "react-icons/ai";
 
 function Hero()

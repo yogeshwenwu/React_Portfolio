@@ -9,7 +9,7 @@ function NavBar() {
     <a className='font-bold text-yellow-400' href='#' >Yogesh</a>
     <nav className='hidden md:block'>
       <ul className='flex text-yellow-400'>
-        <li><a href='/'>Home</a></li>
+        <li><a href='#Hero'>Home</a></li>
         <li><a href='#About'>About</a></li>
         <li><a href='#Project'>Projects</a></li>
         <li><a href='#Contact'>Contact</a></li>
@@ -17,7 +17,7 @@ function NavBar() {
     </nav>
     {toggleMenu && <nav className='block md:hidden z-20'>
       <ul onClick={() => setToggleMenu(!toggleMenu)} className='flex flex-col text-yellow-400 mobile-nav'>
-        <li><a href='/'>Home</a></li>
+        <li><a href='#Hero'>Home</a></li>
         <li><a href='#About'>About</a></li>
         <li><a href='#Project'>Projects</a></li>
         <li><a href='#Contact'>Contact</a></li>
