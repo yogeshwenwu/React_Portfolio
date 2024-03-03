@@ -12,8 +12,8 @@ function Hero()
                 <p className="text-3xl py-2">Pre-Final Year Student</p>
                 <button className="text-2xl  text-yellow-400 opacity-50" >Resume</button>
                 <div className="flex py-10 space-x-5">
-                    <a className='hover:text-yellow-400' href="#"><AiOutlineLinkedin/></a>
-                    <a className='hover:text-yellow-400' href="#"><AiOutlineGithub/></a>
+                    <a className='hover:text-yellow-400' href="https://www.linkedin.com/in/yogesh-m-v-207114233"><AiOutlineLinkedin/></a>
+                    <a className='hover:text-yellow-400' href="https://github.com/yogeshwenwu/"><AiOutlineGithub/></a>
                 </div>
             </h1>
             </div>
